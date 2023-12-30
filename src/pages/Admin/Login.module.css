@@ -1,0 +1,41 @@
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inneardiv {
+  /* background: linear-gradient(
+    90deg,
+    rgba(162, 58, 180, 1) 0%,
+    rgba(253, 29, 184, 1) 50%,
+    rgba(252, 238, 69, 1) 100%
+  ); */
+  border: 1px solid black;
+  padding: 1rem;
+  margin-top: 8%;
+  width: 25%;
+}
+.inneardiv h1 {
+  color: black;
+}
+.maininput {
+  display: flex;
+  flex-direction: column;
+  height: 3rem;
+  margin-bottom: 4%;
+}
+
+.maininput input {
+  height: 42px;
+  padding-left: 2%;
+}
+.loginbtn {
+  background: red;
+  border: none;
+  color: white;
+  width: 39%;
+  height: 29px;
+  border-radius: 6px;
+  margin-top: 2%;
+  font-weight: 800;
+}

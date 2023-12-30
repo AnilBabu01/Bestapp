@@ -1,0 +1,1912 @@
+.topmenubar {
+    border-bottom: 1px solid #093959;
+    border-top: 1px solid #093959;
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .imgdivformat {
+    display: flex;
+  }
+  .imgdivformat img {
+    width: 2rem;
+  }
+  .imgdivformatimg {
+    width: 2rem;
+    margin-right: 1rem;
+  }
+  .showfathersname {
+    margin-right: 1rem;
+  }
+  .tablethstart {
+    background-color: green;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  .showfathersname label {
+    margin-left: 0.5rem;
+  }
+  .maintablediv p {
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .inputdivimg img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .inputdivimg10 {
+    width: 100%;
+  }
+  .inputdivimg10 img {
+    width: 100%;
+    height: 10rem;
+  }
+  .addtopmenubar {
+    border-bottom: 1px solid #093959;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }
+  .addtopmenubar button {
+    background: #093959;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .addtopmenubarbuttonactive {
+    background: #093959 !important;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .addtopmenubarbuttondisable {
+    background: #c2d1da !important;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .searchoptiondiv button {
+    background: #093959;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .searchoptiondivbutton {
+    border: 1px solid #093959;
+    font-weight: 600;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    color: #093959 !important;
+    background-color: white !important;
+  }
+  .saveattendacebutton {
+    background: green !important;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .resetattendacebutton {
+    background: red !important;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .holidaybutton {
+    background: yellowgreen !important;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+  .holdaybtn {
+    color: white;
+    background: yellowgreen;
+    font-weight: 300;
+    width: 2rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  .absentbtn {
+    color: white;
+    background: red;
+    font-weight: 300;
+    width: 2rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  .presentbtn {
+    color: white;
+    background: green;
+    font-weight: 300;
+    width: 2rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  .searchbtnactive {
+    background: #093959;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .dateresiging {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+  }
+  .searchoptiondiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .opensearch {
+    border: 1px solid #093959;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .opensearchinput {
+    border: 1px solid #093959;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+  }
+  .opensearchinput20 {
+    border: 1px solid #093959;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    /* display: flex; */
+    justify-content: flex-end;
+    color: black;
+  }
+  .opensearchinput10 {
+    border: 1px solid #093959;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    width: 9rem;
+  }
+  .add_divmarginn {
+    padding: 0.5rem;
+  }
+  
+  .add_divmarginn10 {
+    padding: 0.5rem;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  
+  .tabletable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tabletd,
+  .tableth {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .tableth10 {
+    border: 1px solid #dddddd;
+    text-align: center;
+    width: 10rem !important;
+    padding-left: 4rem;
+    padding-right: 5rem;
+  }
+  
+  .tabletr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  .tabletd img {
+    width: 32%;
+  }
+  
+  .tabkeddd {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tabkeddd button {
+    margin-right: 1rem;
+  }
+  .tabkeddd img {
+    width: 25px;
+    margin-right: 8%;
+  }
+  
+  .tabkedddimgactive {
+    width: 25px !important;
+    margin-right: 0.3rem;
+  }
+  
+  .tabkedddimgdisable {
+    width: 25px !important;
+    opacity: 0.3 !important;
+    margin-right: 0.3rem;
+  }
+  .searchoptiondiv label {
+    margin-right: 0.5rem;
+  }
+  .abtn {
+    color: red;
+    background: white;
+    font-weight: 300;
+    width: 34%;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  .abtnselected {
+    color: white;
+    background: red;
+    font-weight: 300;
+    width: 34%;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  
+  .pbtn {
+    color: green;
+    background: white;
+    font-weight: 300;
+    width: 34%;
+    border-radius: 1px solid green;
+    border-radius: 5px;
+    border: 1px solid green;
+    margin-right: 0.5rem;
+  }
+  
+  .pbtnselected {
+    color: white;
+    background: green;
+    font-weight: 300;
+    width: 34%;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  .tabletdnew {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  .idcarddiv {
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-top: 2%;
+  }
+  .idcarddivflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.3%;
+  }
+  .idcarddivflex10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1%;
+  }
+  
+  .expensesDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .innearexpensesdiv {
+    width: 50%;
+    border: 1px solid #093959;
+    padding: 0.5rem;
+    height: 34rem;
+  }
+  .innearexpensesdiv10 {
+    width: 50%;
+    border: 1px solid #093959;
+    padding: 0.5rem;
+    height: 34rem;
+  }
+  .onlytablescroll {
+    width: 100%;
+    border: 1px solid #093959;
+    padding: 0.5rem;
+    height: 22rem;
+    overflow-x: auto;
+  }
+  .mainfivrupee {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mainfivrupeep {
+    font-weight: 700;
+  }
+  /* .mainfivrupee10{
+      display: flex;
+      justify-content: space-between;
+    } */
+  .mainfivrupee10p {
+    font-weight: 700;
+  }
+  .mainrecoveryp {
+    background-color: #093959;
+    color: white;
+    padding: 1%;
+  }
+  .mainContainer {
+    padding-top: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  @media (max-width: 730px) {
+    .idcarddiv {
+      padding-left: 23%;
+      padding-right: 23%;
+      padding-top: 2%;
+    }
+    .idcarddivflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 0.3%;
+    }
+    .idcarddivflex10 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 1%;
+    }
+    .expensesDiv {
+      padding-left: 123%;
+    }
+    .innearexpensesdiv {
+      width: auto;
+    }
+    .innearexpensesdiv10 {
+      width: auto;
+    }
+    .tabletdnew {
+      display: flex;
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+    .abtn {
+      width: 100%;
+      padding: 0.1rem;
+    }
+    .abtnselected {
+      width: 100%;
+      padding: 0.1rem;
+    }
+  
+    .pbtn {
+      width: 100%;
+      padding: 0.1rem;
+      margin-bottom: 0.2rem;
+    }
+  
+    .pbtnselected {
+      width: 100%;
+      padding: 0.1rem;
+      margin-bottom: 0.2rem;
+    }
+    .topmenubar {
+      display: block;
+      padding: 0.5rem;
+      border-top: none;
+      border-bottom: none;
+    }
+  
+    .searchoptiondiv {
+      display: block;
+    }
+  
+    .searchoptiondiv button {
+      background: #093959;
+      color: white;
+      border-radius: 6px;
+      font-weight: 600;
+      padding: 0.3rem;
+      padding-left: 0.5rem;
+      padding-right: 0rem;
+      margin-right: 0rem;
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+    .tablecontainer {
+      overflow-x: auto;
+      /* padding: 10px;
+            margin: 10px; */
+    }
+    .add_divmarginn {
+      padding: 0.5rem;
+    }
+  
+    .addtopmenubar {
+      border-bottom: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0rem;
+      padding-right: 0.5rem;
+    }
+  
+    .opensearch {
+      background: #d5c7c7;
+      padding: 0.2rem;
+      padding-left: 0.5rem;
+      padding-right: 0.4rem;
+      border-radius: 5px;
+      margin-right: 0rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .tabkeddd {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+      display: block;
+    }
+  
+    .opensearchinput {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+    .opensearchinput10 {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  
+  .maincontecentReg {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .positionrelative {
+    position: relative;
+  }
+  .innearAbsolute {
+    position: absolute;
+    width: 100%;
+    height: 42.3rem;
+  }
+  
+  .innearAbsolute img {
+    height: 42.3rem;
+    width: 100%;
+  }
+  .verifybtn {
+    background: #ff6900;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+  }
+  .verifybtntop {
+    background: #ff6900;
+    color: white;
+    margin-top: 5%;
+    border-radius: 5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+  }
+  
+  .verifybtndisable {
+    background: #f5ab76;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+  }
+  .verifybtntopdisable {
+    background: #f5ab76;
+    color: white;
+    margin-top: 5%;
+    border-radius: 5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+  }
+  
+  .timmeerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .upAbsolute {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 8.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divmainlogin {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .divmainlogin10 {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.2%;
+  }
+  
+  .divmaininput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .divmainlogin h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .divmainlogin10 h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .logbtnstyle {
+    width: 50%;
+    height: 35px;
+    background: #093959;
+    color: white;
+    border-radius: 7px;
+  }
+  .logbtnstyledisable {
+    width: 50%;
+    height: 35px;
+    background: #a8cae0;
+    color: white;
+    border-radius: 7px;
+  }
+  .completetext {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .inputdivregister {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+  }
+  .inputdivregister label {
+    margin-bottom: 1%;
+    margin-bottom: 1%;
+  }
+  .inputdivregister select {
+    border: 0.8px solid rgb(66, 66, 66);
+    /* width: 12.7rem; */
+    height: 35px;
+    padding-left: 1rem;
+    border-radius: 5px;
+  }
+  .inputdivregister input {
+    border: 0.8px solid rgb(66, 66, 66);
+    /* width: 18.7rem; */
+    height: 35px;
+    padding-left: 1rem;
+    border-radius: 5px;
+  }
+  .inputdivregister input:focus {
+    outline: none;
+    /* border: 2px solid #093959; */
+    box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+    border-color: rgb(0, 0, 128);
+  }
+  
+  
+  .inputdiv80 {
+    margin-top: 1rem;
+  }
+  
+  .inputdiv {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+  }
+  .inputdiv label {
+    margin-bottom: 1%;
+    margin-bottom: 1%;
+  }
+  .inputdiv select {
+    border: 0.8px solid rgb(66, 66, 66);
+    /* width: 12.7rem; */
+    width: 100%;
+    height: 35px;
+    padding-left: 1rem;
+    border-radius: 5px;
+  }
+  .inputdiv input {
+    border: 0.8px solid rgb(66, 66, 66);
+    /* width: 18.7rem; */
+    width: 100%;
+    height: 35px;
+    padding-left: 1rem;
+    border-radius: 5px;
+  }
+  .inputdiv input:focus {
+    outline: none;
+    /* border: 2px solid #093959; */
+    box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+    border-color: rgb(0, 0, 128);
+  }
+  
+  .inputdiv20 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+  .inputdiv20 label {
+    margin-bottom: 1%;
+    margin-bottom: 1%;
+  }
+  .inputdiv20 input {
+    border: 0.8px solid rgb(66, 66, 66);
+    /* width: 18.7rem; */
+    width: 100%;
+    height: 35px;
+    padding-left: 1rem;
+    border-radius: 5px;
+  }
+  .inputdiv20 input:focus {
+    outline: none;
+    /* border: 2px solid #093959; */
+  
+    box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+    border-color: rgb(0, 0, 128);
+  }
+  
+  
+  .inputdivsingle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .inputdivsingle label {
+    margin-bottom: 1%;
+    margin-bottom: 1%;
+  }
+  .inputdivsingle select {
+    border: 0.8px solid rgb(66, 66, 66);
+    /* width: 12.7rem; */
+    width: 100%;
+    height: 35px;
+    padding-left: 1rem;
+    border-radius: 5px;
+  }
+  .inputdivsingle input {
+    border: 0.8px solid rgb(66, 66, 66);
+    /* width: 18.7rem; */
+    width: 100%;
+    height: 35px;
+    padding-left: 1rem;
+    border-radius: 5px;
+  }
+  .inputdivsingle input:focus {
+    outline: none;
+    /* border: 2px solid #093959; */
+    box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+    border-color: rgb(0, 0, 128);
+  }
+  
+  
+  .inputdiv10 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .inputdivchangepassword {
+    display: flex;
+    flex-direction: column;
+    /* width: 32%; */
+    position: relative;
+  }
+  
+  .inputdivchangepassword label {
+    margin-bottom: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .inputdivchangepassword input {
+    border: 0.8px solid rgb(66, 66, 66);
+    /* width: 18.7rem; */
+    width: 100%;
+    height: 35px;
+    padding-left: 1rem;
+    border-radius: 5px;
+    padding-right: 2rem;
+  }
+  .inputdivchangepassword input:focus {
+    outline: none;
+    /* border: 2px solid #093959; */
+    box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+    border-color: rgb(0, 0, 128);
+  }
+  
+  .showpassbtn {
+    position: absolute;
+    left: 86%;
+    top: 43%;
+    list-style: none;
+  }
+  .selecttimemain {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .selectinnear {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  .selectinnearinput {
+    border: 1px solid #093959;
+    border-radius: 5px;
+    padding-left: 0.1rem;
+  }
+  .selectinnear select {
+    border: 1px solid #093959;
+    border-radius: 5px;
+  }
+  
+  .inputdivaddred {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .inputdivaddred label {
+    margin-bottom: 1%;
+  }
+  .inputdivaddred input {
+    border: 0.8px solid rgb(66, 66, 66);
+    width: 100%;
+    height: 35px;
+    padding-left: 1rem;
+    border-radius: 5px;
+  }
+  .inputdivaddredinput:focus {
+    outline: none;
+    /* border: 2px solid #093959; */
+  
+    box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+    border-color: rgb(0, 0, 128);
+  }
+  .inputdiv select {
+    border: 0.8px solid rgb(66, 66, 66);
+    width: 100%;
+    padding-left: 1rem;
+    border-radius: 10px;
+  }
+  .headingdivicon {
+    border-bottom: 4px solid #093959;
+    margin-bottom: 1%;
+  }
+  .inputdiv select:focus {
+    outline: none;
+    /* border: 2px solid #093959; */
+  
+    box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+    border-color: rgb(0, 0, 128);
+  }
+  .searchinput {
+    border: 0.8px solid rgb(66, 66, 66);
+    /* width: 12.7rem; */
+    width: 100%;
+    height: 30px;
+    padding-left: 1rem;
+    border-radius: 5px;
+  }
+  .logbtnstylediv {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+    margin-top: 2%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profilediv {
+    margin-top: 3%;
+  }
+  
+  .logbtnstyledivcreate {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+    margin-top: 8%;
+  }
+  
+  .forgottext {
+    text-align: right;
+    padding-right: 3.2%;
+    color: #093959;
+  }
+  
+  .closeicondiv {
+    display: flex;
+    justify-content: right;
+    padding-right: 1%;
+    padding-top: 1%;
+    cursor: pointer;
+  }
+  
+  .closeicondivauth {
+    display: flex;
+    justify-content: right;
+    padding-right: 1%;
+    padding-top: 1%;
+    cursor: pointer;
+    position: absolute;
+    background: #ff6900;
+    padding: 1%;
+    border-radius: 30px;
+    left: 99%;
+    bottom: 99%;
+  }
+  .McsQuestionmaindiv{
+    padding: 0.5rem;
+  }
+  .mainper {
+    color: green;
+    font-weight: 600;
+  }
+  .marginper {
+    padding-left: 0.8rem;
+  }
+  .mainperdiv {
+    border: 1px solid #093959;
+    height: 8rem;
+    padding: 0.2rem;
+    border-radius: 8px;
+    width: 10rem;
+    margin: 0.1rem;
+  }
+  .cancelbtn {
+    width: 13%;
+    height: 35px;
+    background: #093959;
+    color: white;
+    border-radius: 7px;
+    margin-right: 1rem;
+  }
+  .showdetails {
+    width: 50%;
+    height: 35px;
+    background: #093959;
+    color: white;
+    border-radius: 7px;
+    margin-left: 1rem;
+  }
+  .showdetails10 {
+    width: 50%;
+    height: 35px;
+    background: #80a6be;
+    color: white;
+    border-radius: 7px;
+    margin-left: 1rem;
+  }
+  .mainbtnndivcancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  .divmaininputfeediv {
+    display: flex;
+    padding-bottom: 1rem;
+  }
+  .tablecontainer {
+    overflow-x: auto;
+    /* padding: 10px;
+        margin: 10px; */
+  }
+  .tablecontainer10 {
+    overflow-x: auto;
+    /* padding: 10px;
+        margin: 10px; */
+    margin-bottom: "2rem" !important;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .add_divmarginn10 {
+    padding: 0.5rem;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .tabletd,
+  .tableth {
+    border: 2px solid #093959;
+    text-align: center;
+    padding: 8px;
+  }
+  .mainfeedetails {
+    display: flex;
+    justify-content: space-between;
+  }
+  .addpaymaingintable {
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+  }
+  .inputdivpay {
+    text-align: center;
+  }
+  .hightlighttext {
+    background-color: #ff6900;
+    color: white;
+    padding-left: 0.1rem;
+    text-align: center;
+  }
+  
+  .topminaquestiondiv {
+    margin-bottom: 1rem;
+  }
+  .QDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+  }
+  .QDiv input {
+    border: 1px solid #093959;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    height: 35px !important;
+  }
+  
+  .quinnear p {
+    background-color: seagreen;
+    color: white;
+    padding: 0.2rem;
+    margin-bottom: 0.4rem;
+    border-radius: 5px;
+  }
+  .mainqinput {
+    border: 0.8px solid rgb(66, 66, 66) !important;
+    width: 18.3rem !important;
+    height: 35px !important;
+    padding-left: 1rem !important;
+    border-radius: 5px !important;
+  }
+  .optiondiv {
+    display: flex;
+  }
+  .addoptiondiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .radiodiv {
+    width: 4rem;
+  }
+  .deletediv {
+    display: flex;
+    justify-content: space-between;
+  }
+  .deletediv10 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .childdetails {
+    background: tomato;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.15);
+    color: white;
+    padding: 1rem;
+  }
+  .answericon {
+    width: 25px;
+    height: 25px;
+  }
+  .cloceiconright {
+    display: flex;
+    justify-content: right;
+  }
+  .maincontentdivshado {
+    width: 70%;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  .divcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  .feedeltext {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .McsQuestionss {
+    padding: 1rem;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .startbtndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexaddDiv {
+    display: flex;
+  }
+  
+  .mainemployeeInfodivinnear {
+    border: 1px solid black;
+    padding: 1%;
+    margin: 1%;
+  }
+  .mainemployeeInfodiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  .divmaininputradiodiv {
+    display: flex;
+  }
+  
+  .inputdivradio {
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .checkpreview {
+    width: 5% !important;
+    height: 3% !important;
+    margin-right: 0.3rem !important;
+  }
+  .hlfsize {
+    width: 45% !important;
+  }
+  
+  .documentnameDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnActive {
+    width: 140px;
+    height: 35px;
+    border-radius: 7px;
+    color: white;
+    background: #093959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btnActivecapture {
+    width: 140px;
+    height: 35px;
+    border-radius: 7px;
+    color: white;
+    background: #093959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .btnActive:hover {
+    width: 140px;
+    height: 35px;
+    border-radius: 7px;
+    color: white;
+    background: #0c4367;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btndeActive {
+    width: 140px;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid #093959;
+    color: #093959;
+    background: rgba(248, 247, 252, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .selectbtn {
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+  }
+  .msindivkitdiv {
+    display: flex;
+  }
+  .inputdivimg50 {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputdivimg60 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .idcarddiv {
+    padding: 20%;
+  }
+  
+  .inputcreadentionals {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputcreadentionals input {
+    border: 1px solid #093959;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    height: 34px;
+    /* width: 17rem; */
+    width: 100%;
+  }
+  .mainshowresuludetails {
+    padding: 1rem;
+  }
+  .monthlist {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .monthlist10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+  }
+  .mainshow {
+    display: flex;
+  }
+  .salarySlipMain {
+    border: 1px solid #093959;
+    /* background-image: url("../../public//images//receiptbg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 1rem;
+  }
+  .overlaydiv {
+    padding: 1rem 1rem 0rem 1rem;
+    background: rgba(255, 255, 255, 0.582);
+    opacity: 1;
+  }
+  .salarySlipHeader {
+    border-bottom: 1px solid #093959;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: #4a8fbd;
+    padding-bottom: 1%;
+  }
+  .salarySlippersonal {
+    border-bottom: 1px solid #093959;
+    margin-bottom: 1rem;
+    background-color: #4a8fbd;
+    padding-left: 1%;
+    padding-bottom: 1%;
+  }
+  
+  .tabletable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .tabletablemain {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    /* background-color: #4a8fbd; */
+    color: black;
+  }
+  .tableth10 {
+    /* border: 1px solid #093959; */
+    text-align: center;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tableth {
+    border: 1px solid #093959;
+    text-align: center;
+    padding: 8px;
+  }
+  .tabletd {
+    border: 1px solid #093959;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  
+    color: black;
+  }
+ .sliderimg{
+  width: 32%;
+ }
+  
+  .tabletable10 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+  
+  .tabletd10,
+  .tableth10 {
+    border: 1px solid #093959;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .tabletd20,
+  .tableth20 {
+    border-top: 1px solid #093959;
+    border-left: 1px solid #093959;
+    text-align: center;
+    padding: 8px;
+  }
+  .abtn {
+    color: red;
+    background: white;
+    font-weight: 300;
+    width: 34%;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  .abtnselected {
+    color: white;
+    background: red;
+    font-weight: 300;
+    width: 34%;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  
+  .pbtn {
+    color: green;
+    background: white;
+    font-weight: 300;
+    width: 34%;
+    border-radius: 1px solid green;
+    border-radius: 5px;
+    border: 1px solid green;
+    margin-right: 0.5rem;
+  }
+  
+  .pbtnselected {
+    color: white;
+    background: green;
+    font-weight: 300;
+    width: 34%;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  .mainattendhow {
+    display: flex;
+    flex-direction: column;
+  }
+  .commanbtn {
+    color: white;
+    background: yellowgreen;
+    font-weight: 300;
+    width: 2rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    text-align: center;
+  }
+  .holdaybtn {
+    color: white;
+    background: yellowgreen;
+    font-weight: 300;
+    width: 2rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    text-align: center;
+  }
+  .absentbtn {
+    color: white;
+    background: red;
+    font-weight: 300;
+    width: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 0.5rem;
+  }
+  .presentbtn {
+    color: white;
+    background: green;
+    font-weight: 300;
+    width: 2rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    text-align: center;
+  }
+  .attendancediv {
+    display: flex;
+  }
+  .addmargin {
+    margin-bottom: 1rem;
+  }
+  .opicon {
+    width: 20px;
+    height: 20px;
+  }
+  .opicon10 {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+  }
+  .showimgdiv {
+    display: flex;
+  }
+  .showimgdiv10 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+  
+  .backbtn {
+    width: 40%;
+    height: 35px;
+    background: #093959;
+    color: white;
+    border-radius: 7px;
+    margin: 0.5rem;
+  }
+  
+  .main_img_divvvv {
+    margin-top: 3%;
+    height: 13rem;
+    width: 100%;
+    background: #e8e8e8;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .main_img_divvvvimg {
+    height: 10rem;
+    width: 100%;
+  }
+  .formdivvv_imf {
+    position: absolute;
+  }
+  .formdivvv_imf input {
+    height: 206px;
+    margin-top: 3%;
+    width: 18.7rem;
+    opacity: 0;
+    width: 57.8rem;
+  }
+  
+  .dharamshala_imgggg {
+    height: 200px;
+    width: auto;
+  }
+  .typeofemployee {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    margin-bottom: 0.5rem;
+  }
+  .mainbtnndivcancel10 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .searchbtnactive {
+    background: #413aa4;
+    color: white;
+    border-radius: 2px;
+    font-weight: 600;
+    padding: 0.3rem;
+    font-size: 14px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+  .searchbtnactiveforpay {
+    background: #093959;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 0.3rem;
+    font-size: 14px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .searchoptiondivbutton {
+    border: 1px solid #413aa4;
+    font-weight: 600;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 14px;
+    margin-right: 1rem;
+    border-radius: 2px;
+    color: #413aa4 !important;
+    background-color: white !important;
+  }
+  .paybtndiv {
+    margin-bottom: 0.2rem;
+  }
+  
+  .paybtndiv10 {
+    margin-bottom: 1rem;
+  }
+  .mainpaiddiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .candidateDetails {
+    border: 1px solid #093959;
+    width: 70%;
+    margin-bottom: 1rem;
+  }
+  .mainwrapdiv {
+    display: flex;
+    justify-content: space-around;
+  }
+  .fixInnearDivWidth {
+    border: 1px solid #093959;
+    width: 30%;
+    margin-bottom: 1%;
+    text-align: center;
+  }
+  .fixInnearDivWidth10 {
+    width: 30%;
+    margin-bottom: 1%;
+    text-align: center;
+  }
+  .maindivflesxs {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .maindivflesxs {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background-color: #4a8fbd;
+  }
+  .mainslipdivtop {
+    padding: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .optionDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  .optionbtn {
+    width: 20%;
+    height: 35px;
+    background: #093959;
+    color: white;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+  }
+  
+  .textareadiv {
+    width: 100%;
+  }
+  .textareadiv textarea {
+    border: 1px solid #093959;
+    width: 100%;
+    height: 10rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+  .textareadiv textarea:focus {
+    box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+    border-color: rgb(0, 0, 128);
+  }
+  .regisFeepayDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .regisFeepayDivinnear {
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .regisFeepayDiv10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  .payoption {
+    width: 6%;
+  }
+  
+  .payfeeoption {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .paytypeselect {
+    width: 13px !important;
+  }
+  
+  .stylecash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainpayselect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+    width: 32%;
+  }
+  .roomlistscrollbar {
+    height: 15rem;
+    overflow-y: scroll;
+  }
+  .dashActiveBtn {
+    width: 15%;
+    height: 35px;
+    background: #413aa4;
+    color: white;
+    border-radius: 2px;
+    margin: 0.5rem;
+  }
+  .dashDisableBtn {
+    width: 15%;
+    height: 35px;
+    border: 1px solid #413aa4;
+    color: #093959;
+    border-radius: 2px;
+    margin: 0.5rem;
+  }
+  
+  .textarextdiv {
+    border: 1px solid #093959;
+    border-radius: 5px;
+    height: 5rem;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  
+  .textarextdiv:focus {
+    box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+    border-color: rgb(0, 0, 128);
+  }
+  .subjectinput{
+    border: 1px solid #093959;
+    width: 100%;
+    margin-bottom: 1%;
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+  }
+  .subjectinput:focus{
+    box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+    border-color: rgb(0, 0, 128);
+  }
+  @media screen and (max-width: 780px) {
+    .maincontentdivshado {
+      width: 97%;
+      background: #ffffff;
+      box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      padding: 1rem;
+    }
+    .backmaininear {
+      width: 100%;
+    }
+    .showpassbtn {
+      position: absolute;
+      left: 86%;
+      top: 43%;
+      list-style: none;
+    }
+  
+    .closeicondiv {
+      left: 92%;
+      bottom: 99%;
+    }
+    .inputdivregister {
+      width: 100%;
+    }
+    .dashActiveBtn {
+      width: auto;
+      height: 35px;
+      background: #093959;
+      color: white;
+      border-radius: 7px;
+      margin: 0.5rem;
+    }
+    .dashDisableBtn {
+      width: auto;
+      height: 35px;
+      background: #cedce5;
+      color: #093959;
+      border-radius: 7px;
+      margin: 0.5rem;
+    }
+    .searchinput {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+    .candidateDetails {
+      border: 1px solid #093959;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .mainpaiddiv {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 100%;
+    }
+    .regisFeepayDiv {
+      flex-direction: column;
+    }
+    .searchbtnactive {
+      font-size: 18px;
+      margin-bottom: 2%;
+      margin-right: 0rem;
+    }
+    .paybtndiv {
+      display: flex;
+      justify-content: space-between;
+      padding: 1%;
+      flex-direction: column;
+    }
+    .paybtndiv10 {
+      display: flex;
+      justify-content: space-between;
+      padding: 1%;
+      flex-direction: column;
+    }
+    .searchoptiondivbutton {
+      font-size: 18px;
+      margin-bottom: 2%;
+      margin-right: 0rem;
+    }
+  
+    .divmainlogin {
+      /* width: 20rem; */
+    }
+    .divmainloginchangepassword {
+      width: 100%;
+    }
+    .divmainlogin10 {
+      padding: 1rem;
+    }
+    .disabledinphone {
+      display: none;
+    }
+    .verifybtndisable {
+      margin-top: 0.5rem;
+    }
+    .verifybtntopdisable {
+      width: 100%;
+    }
+    .inputcreadentionals input {
+      width: 100%;
+    }
+    .minpadding {
+      padding: 1rem;
+    }
+    .mainperdiv {
+      border: 1px solid #093959;
+      height: 8rem;
+      padding: 0.2rem;
+      border-radius: 8px;
+      width: 18rem;
+      margin: 0.1rem;
+      margin-bottom: 1rem;
+    }
+    .mainemployeeInfodivinnear {
+      border: none;
+      padding: 0%;
+      margin: 0%;
+    }
+    .mainemployeeInfodiv {
+      display: block;
+    }
+    .verifybtn {
+      margin-top: 1rem;
+      width: 100%;
+    }
+    .verifybtntop {
+      width: 100%;
+    }
+    .cancelbtn {
+      width: 30%;
+      height: 35px;
+      background: #093959;
+      color: white;
+      border-radius: 7px;
+    }
+    .McsQuestionss {
+      padding: 1rem;
+      padding-left: 1%;
+      padding-right: 1%;
+    }
+  
+    .selecttimemain {
+      margin-bottom: 1rem;
+    }
+    .selectinnear {
+      width: 47%;
+    }
+    .inputdiv {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .divmaininput {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  
+    .inputdiv input {
+      width: 100%;
+      height: 35px;
+    }
+  
+    .inputdiv {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .inputdiv input {
+      width: 100%;
+      height: 35px;
+    }
+  
+    .mainqinput {
+      border: 0.8px solid rgb(66, 66, 66) !important;
+      width: 100% !important;
+      height: 35px !important;
+      padding-left: 1rem !important;
+      border-radius: 5px !important;
+    }
+    .inputdiv10 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .inputdiv10 input {
+      width: 100%;
+      height: 35px;
+    }
+    .inputdiv20 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 2%;
+      margin-top: 3%;
+    }
+  
+    .inputdiv20 input {
+      width: 101%;
+      height: 204px;
+    }
+    .addwidth {
+      width: 100% !important;
+      height: 35px !important;
+    }
+  
+    .addwidthtime {
+      width: 33% !important;
+      height: 35px !important;
+    }
+  }
+  

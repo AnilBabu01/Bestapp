@@ -1,0 +1,265 @@
+
+.totpmainis{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: rgb(28, 130, 173);
+  width: 100%;
+  padding-left: 5%;
+  z-index: 3;
+  color: white;
+  padding-right: 5%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  height: 49px;
+  margin-left: 0rem;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding-right: 1rem;
+}
+
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.active {
+  text-decoration: none;
+  font-size: 20px;
+  /* padding: 10px 20px; */
+  /* margin: 0 10px; */
+  cursor: pointer;
+  color: #e70000;
+  border-radius: 5px;
+}
+
+.home:hover,
+.about:hover,
+.login:hover,
+.singup:hover {
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  /* padding: 10px 20px; */
+  /* margin: 0 10px; */
+  cursor: pointer;
+
+  color: #000;
+  transition: 0.5s;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  font-weight: bold;
+}
+.home,
+.about,
+.login,
+.singup {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.mobileMenuIcon {
+  display: none;
+}
+
+.burger {
+  height: 50 !important;
+  width: 45px !important;
+  color: white;
+  display: none;
+}
+
+.profilemaindivheader {
+  margin-left: 1.5rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+}
+.menelist {
+  list-style: none;
+}
+
+.menelist a {
+  text-decoration: none;
+  color: white;
+}
+
+.menelist a:hover {
+  color: #e70000;
+}
+
+.menelist a:active {
+  color: #e70000;
+}
+
+.log {
+  display: flex;
+  position: fixed;
+  top: 15px;
+  left: 35px;
+}
+
+/* .navlinks {
+    display: none;
+  } */
+
+.home,
+.about,
+.login,
+.singup {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  transition: all 0.1s ease-out;
+  display: grid;
+}
+
+.active {
+  margin-bottom: 8px;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  transition: all 0.5s ease-out;
+  display: grid;
+  border-radius: 5px;
+  /* transition: 0.5s; */
+
+  font-weight: bold;
+}
+
+.mobileMenuIcon {
+  font-size: 30px;
+  border: none;
+  outline: none;
+  top: 15px;
+  right: 25px;
+}
+.logotext {
+  font-size: 23px;
+  font-weight: 600;
+  margin-left: 3%;
+}
+
+.showburinphone {
+  display: none;
+}
+.Links {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.Links li {
+  list-style: none;
+}
+.Links li a {
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  /* padding: 10px 20px; */
+  /* margin: 0 10px; */
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  padding: 11%;
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.Links li a:hover {
+  color: black;
+  border: 1px solid black;
+  font-size: 20px;
+  transition: 0.9s;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media screen and (max-width: 780px) {
+  .Links {
+    display: none;
+  }
+  .mobilelinks {
+    position: absolute;
+    display: flr;
+    background-color: rgb(28, 130, 173);
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    font-weight: 800;
+    padding-right: 21px;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mobilelinks li {
+    list-style: none;
+  }
+
+  .mobilelinks li a {
+    font-size: 21px;
+    height: 40px;
+  }
+
+  .mobilelinks li a:hover {
+    font-size: 21px;
+    height: 40px;
+    color: black;
+  }
+  .navbar {
+    width: 100%;
+    z-index: 3;
+  }
+  .navlinks {
+    display: none;
+  }
+  .burger {
+    width: 45px !important;
+    color: white;
+    height: 41px !important;
+    display: block;
+  }
+
+  .logotext {
+    font-size: 18px;
+
+    font-weight: 600;
+  }
+  .hideinphone {
+    display: none;
+  }
+  .showburinphone {
+    display: block;
+  }
+
+  .mobileMenuIcon {
+    display: block;
+  }
+  .active {
+    color: rgb(28, 130, 173);
+  }
+}

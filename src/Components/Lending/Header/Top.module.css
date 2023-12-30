@@ -1,0 +1,17 @@
+.mainTop {
+  background: indianred;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.2rem;
+}
+.iconmedia {
+  height: 50 !important;
+  width: 45px !important;
+  color: white;
+  height: "40px";
+}
+
+@media screen and (max-width: 780px) {
+}

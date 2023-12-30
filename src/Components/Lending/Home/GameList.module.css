@@ -1,0 +1,124 @@
+.maingamelist {
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.maingamelistH1div {
+  border-bottom: 2px solid red;
+  padding-bottom: 1%;
+  margin-bottom: 1rem;
+}
+.maingamelistH1 {
+  font-size: 100%;
+}
+.maingamediv {
+  background-color: black;
+  width: 22%;
+  border-radius: 5px;
+  height: 15rem;
+  position: relative;
+  margin-bottom: 5%;
+}
+.maingamediv:hover {
+  background-color: black;
+  width: 25%;
+  border-radius: 5px;
+  height: 17rem;
+  position: relative;
+  margin-bottom: 5%;
+  transition: 0.5s;
+}
+
+.maingamediv img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  height: 100%;
+  border-top-right-radius: 5px;
+}
+.overdiv {
+  position: absolute;
+  top: 73%;
+  display: flex;
+  flex: 100%;
+  background: #1b1818;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.overdiv h1 {
+  color: white;
+  font-size: 20px;
+}
+.overdiv p{
+  color: green;
+}
+
+.btndiv {
+  background: red;
+  border: none;
+  color: white;
+  padding: 2%;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-weight: 800;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexidiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.milinons_text{
+  font-size: 10px;
+}
+
+.main_mil{
+  color: #FA7401;
+}
+
+@media (max-width: 730px) {
+  .maingamelist {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .flexidiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .maingamediv {
+    background-color: black;
+    width: 100%;
+    border-radius: 5px;
+    height: 15rem;
+    position: relative;
+    margin-bottom: 14%;
+  }
+  .maingamediv:hover {
+    background-color: black;
+    width: 100%;
+    border-radius: 5px;
+    height: 17rem;
+    position: relative;
+    margin-bottom: 14%;
+    transition: 0.5s;
+  }
+  
+  
+}

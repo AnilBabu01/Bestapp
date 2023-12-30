@@ -1,0 +1,37 @@
+.mainwhy {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(96, 169, 168, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainwhyinnear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.mainwhyinnear h1 {
+  color: white;
+}
+
+.infodiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infotext {
+  border: 1px solid red;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 5px;
+}
+.infotext p{
+    color: white;
+}

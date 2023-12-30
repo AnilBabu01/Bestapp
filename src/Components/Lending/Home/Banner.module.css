@@ -1,0 +1,25 @@
+.maininnear {
+  height: 30rem;
+  width: 100%;
+  position: relative;
+}
+.maininnear img {
+  height: 30rem;
+  width: 100%;
+}
+.hoverdiv {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 30rem;
+  width: 100%;
+  background-color: rgb(28, 130, 173);
+  opacity: 0.8;
+}
+
+.maindtext{
+    color: white;
+}
+.gettext{
+    color: yellow;
+}
