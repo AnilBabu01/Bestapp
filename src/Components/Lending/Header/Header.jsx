@@ -51,7 +51,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/about"
+                  href="/#"
                   className={({ isActive }) =>
                     isActive ? style.active : style.about
                   }
@@ -61,7 +61,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="/#"
                   className={({ isActive }) =>
                     isActive ? style.active : style.about
                   }
@@ -71,7 +71,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/apply/certificate"
+                  href="/#"
                   className={({ isActive }) =>
                     isActive ? style.active : style.about
                   }
