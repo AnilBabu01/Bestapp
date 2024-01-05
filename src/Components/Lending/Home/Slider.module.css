@@ -1,6 +1,6 @@
 .slie_img_div img {
   height: 30rem;
-  margin-top: 6%;
+  margin-top: 0%;
 }
 
 @media screen and (max-width: 780px) {
@@ -8,6 +8,6 @@
     height: 11rem;
   }
   .maisliderdiv {
-    padding-top: 17%;
+    padding-top: 0%;
   }
 }

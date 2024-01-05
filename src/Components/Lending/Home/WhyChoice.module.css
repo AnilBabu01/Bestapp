@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem;
+  padding: 3rem;
 }
 .mainwhyinnear h1 {
   color: white;
@@ -27,11 +27,26 @@
 }
 
 .infotext {
-  border: 1px solid red;
+  border: 3px solid #4f2958;
   margin: 2%;
-  padding: 1%;
+  padding: 3%;
   border-radius: 5px;
+  color: white;
 }
-.infotext p{
-    color: white;
+
+.infotext:hover{
+  padding-top: 30px;
+  background: #4f2958;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 780px) {
+  .infodiv {
+   display: block;
+  }
+
+  .mainwhyinnear {
+  
+    padding: 0rem;
+  }
 }

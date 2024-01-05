@@ -1,12 +1,7 @@
 .footer_main {
   width: 100%;
-  background: rgb(162, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(162, 58, 180, 1) 0%,
-    rgba(253, 29, 184, 1) 50%,
-    rgba(252, 238, 69, 1) 100%
-  );
+  background: #4f2958
+ 
 }
 
 .marguee_style {

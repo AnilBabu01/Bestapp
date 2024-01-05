@@ -7,8 +7,8 @@ const WhyChoice = () => {
         <div className={styles.mainwhyinnear}>
           <h1>Why Choose Us?</h1>
 
-          <div className={styles.infodiv}>
-            <div className={styles.infotext}>
+          <div className={styles.infodiv} >
+            <div className={styles.infotext} data-wow-delay="0.5s">
               <p>
                 1. Vast Selection of Teen Patti Games: Explore our extensive
                 collection of Teen Patti casino games, carefully curated to
@@ -17,7 +17,7 @@ const WhyChoice = () => {
                 you entertained and engaged
               </p>
             </div>
-            <div className={styles.infotext}>
+            <div className={styles.infotext} data-wow-delay="0.5s">
               <p>
                 1. Vast Selection of Teen Patti Games: Explore our extensive
                 collection of Teen Patti casino games, carefully curated to
@@ -29,7 +29,7 @@ const WhyChoice = () => {
           </div>
 
           <div className={styles.infodiv}>
-            <div className={styles.infotext}>
+            <div className={styles.infotext} data-wow-delay="0.5s">
               <p>
                 1. Vast Selection of Teen Patti Games: Explore our extensive
                 collection of Teen Patti casino games, carefully curated to
@@ -38,7 +38,7 @@ const WhyChoice = () => {
                 you entertained and engaged
               </p>
             </div>
-            <div className={styles.infotext}>
+            <div className={styles.infotext} data-wow-delay="0.5s"> 
               <p>
                 1. Vast Selection of Teen Patti Games: Explore our extensive
                 collection of Teen Patti casino games, carefully curated to

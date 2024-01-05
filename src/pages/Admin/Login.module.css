@@ -4,12 +4,6 @@
   align-items: center;
 }
 .inneardiv {
-  /* background: linear-gradient(
-    90deg,
-    rgba(162, 58, 180, 1) 0%,
-    rgba(253, 29, 184, 1) 50%,
-    rgba(252, 238, 69, 1) 100%
-  ); */
   border: 1px solid black;
   padding: 1rem;
   margin-top: 8%;
@@ -28,9 +22,16 @@
 .maininput input {
   height: 42px;
   padding-left: 2%;
+  border:  1px solid #4f2958;
+  border-radius: 5px;
+}
+.maininput input:focus{
+  outline: none;
+  box-shadow: rgba(0, 0, 128, 0.25) 0px 0px 0px 0.2rem;
+  border-color: rgb(0, 0, 128);
 }
 .loginbtn {
-  background: red;
+  background: #4f2958;
   border: none;
   color: white;
   width: 39%;
@@ -38,4 +39,16 @@
   border-radius: 6px;
   margin-top: 2%;
   font-weight: 800;
+}
+
+@media (max-width: 730px) {
+.maindiv{
+  padding: 1rem;
+}
+  .inneardiv {
+    border: 1px solid #4f2958;
+    padding: 1rem;
+    margin-top: 8%;
+    width: 100%;
+  }
 }

@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <>
       <div className={style.totpmainis}>
-        <Top />
+        {/* <Top /> */}
         <div className={style.maindiv}>
           <nav className={style.navbar}>
             <div onClick={() => navigate.push("/")} className={style.logo}>
