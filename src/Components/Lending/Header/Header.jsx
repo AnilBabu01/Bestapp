@@ -32,7 +32,6 @@ const Header = () => {
           <nav className={style.navbar}>
             <div onClick={() => navigate.push("/")} className={style.logo}>
               <img src="/images/Logo.avif" alt=" Logo" />
-              <p className={style.logotext}>BestEarningApp</p>
             </div>
 
             <ul

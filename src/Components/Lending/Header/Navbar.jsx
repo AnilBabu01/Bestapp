@@ -44,7 +44,7 @@ const Navbar = () => {
     <div className={fix ? styles.fixedNavbar : styles.Header}>
       <div className={styles.Logo}>
         <Link href="/" className={styles.logoplex}>
-          <Image src={logo} height={70} width={70} /> <p>BestEarningApp </p>
+          <Image src={logo} height={80} width={300}  /> 
         </Link>
       </div>
 
