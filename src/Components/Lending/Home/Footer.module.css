@@ -1,7 +1,9 @@
 .footer_main {
+  padding: 2rem 4rem;
   width: 100%;
+  color: #fff;
+  box-shadow: 4px 6px 4px 8px #ffc107;
   background: linear-gradient(90deg, rgba(162,58,180,1) 0%, rgba(0,0,0,1) 0%, rgba(68,0,100,1) 100%);
- 
 }
 
 .marguee_style {

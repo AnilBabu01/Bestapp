@@ -5,6 +5,8 @@ import GameList from "@/Components/Lending/Home/GameList";
 import WhyChoice from "@/Components/Lending/Home/WhyChoice";
 import Footer from "@/Components/Lending/Home/Footer";
 import Banner from "@/Components/Lending/Home/Banner";
+import { Casino } from "@mui/icons-material";
+import CasinoWin from "@/Components/Lending/Home/CasinoWin";
 export default function Home({ setLoadingshow, loadingshow }) {
   useEffect(() => {
     setLoadingshow(true);
@@ -23,8 +25,9 @@ export default function Home({ setLoadingshow, loadingshow }) {
           <>
             {/* <Banner/> */}
             <Slider />
+            <CasinoWin />
             <GameList />
-            <WhyChoice />
+            {/* <WhyChoice /> */}
             <Footer />
           </>
         )}
