@@ -44,13 +44,13 @@ const Navbar = () => {
     <div className={fix ? styles.fixedNavbar : styles.Header}>
       <div className={styles.Logo}>
         <Link href="/" className={styles.logoplex}>
-          <Image src={logo} height={80} width={300}  /> 
+          <Image src={logo} height={80} width={300} />
         </Link>
       </div>
 
       <div className={styles.HeaderLink}>
         <ul>
-          <li>
+          {/* <li>
             <Link
               href="/"
               //   onClick={() => setShowMenu(false)}
@@ -61,8 +61,29 @@ const Navbar = () => {
             >
               Home
             </Link>
-          </li>
+          </li> */}
           <li>
+            <Link
+              href="/"
+              //   onClick={() => setShowMenu(false)}
+              smooth={true}
+              duration={500}
+              offset={-70}
+              spy={true}
+              className={styles.downloadNavbar}
+            >
+              <img
+                className={styles.downloadImage}
+                src="/images/icons8-download (1).gif"
+                alt=""
+                srcset=""
+              />
+              <p>
+              Download
+              </p>
+            </Link>
+          </li>
+          {/* <li>
             <Link
               href="#"
               //   onClick={() => setShowMenu(false)}
@@ -73,8 +94,8 @@ const Navbar = () => {
             >
               About
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link
               href="#"
               //   onClick={() => setShowMenu(false)}
@@ -85,8 +106,8 @@ const Navbar = () => {
             >
               contact
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link
               href="#"
               //   onClick={() => setShowMenu(false)}
@@ -97,7 +118,7 @@ const Navbar = () => {
             >
               Policy
             </Link>
-          </li>
+          </li> */}
           {token && (
             <>
               <li>
@@ -179,7 +200,7 @@ const Navbar = () => {
             </div>
             <div className={styles.mobileNavlink}>
               <ul>
-                <li>
+                {/* <li>
                   <Link
                     href="/"
                     onClick={() => setShowMenu(false)}
@@ -190,8 +211,8 @@ const Navbar = () => {
                   >
                     Home
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link
                     href="/"
                     onClick={() => setShowMenu(false)}
@@ -202,8 +223,8 @@ const Navbar = () => {
                   >
                     About
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link
                     href="/"
                     onClick={() => setShowMenu(false)}
@@ -214,8 +235,8 @@ const Navbar = () => {
                   >
                     Contact
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link
                     href="#"
                     onClick={() => setShowMenu(false)}
@@ -226,7 +247,7 @@ const Navbar = () => {
                   >
                     Policy
                   </Link>
-                </li>
+                </li> */}
                 {token && (
                   <>
                     <li>

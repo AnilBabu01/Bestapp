@@ -27,7 +27,9 @@ const GameCard = ({ item }) => {
             {item?.gamebonus}
           </p>
           <a className={styles.btndiv} href={item?.downloadurl}>
-            <FileDownloadIcon /> Download
+            <img className={styles.downloadImage} src="/images/icons8-download (1).gif" alt="" srcset="" />
+            {/* <FileDownloadIcon />  */}
+            Download
           </a>
         </div>
       </div>
