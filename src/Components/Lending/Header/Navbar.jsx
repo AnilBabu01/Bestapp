@@ -62,7 +62,7 @@ const Navbar = () => {
               Home
             </Link>
           </li> */}
-          <li>
+          {/* <li>
             <Link
               href="/"
               //   onClick={() => setShowMenu(false)}
@@ -82,7 +82,7 @@ const Navbar = () => {
               Download
               </p>
             </Link>
-          </li>
+          </li> */}
           {/* <li>
             <Link
               href="#"

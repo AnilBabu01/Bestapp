@@ -15,6 +15,9 @@ import { serverInstance } from "../../../API/ServerInstance";
 import { toast } from "react-toastify";
 import LoadingSpinner from "@/Components/loader/LoadingSpinner";
 import { backendApiUrl, backendUrl } from "../../../config/config";
+import Edit from "../../../pages/images/Edit.png";
+import Delete from "../../../pages/images/Delete.png";
+import Image from "next/image";
 function AddSlider() {
   // const dispatch = useDispatch();
   const [loading, setloading] = useState(false);
@@ -71,8 +74,6 @@ function AddSlider() {
     getdata();
   }, [open]);
 
-
-  
   const handledelete = () => {
     serverInstance("uploadslider", "delete", {
       id: deleteid,
@@ -197,21 +198,13 @@ function AddSlider() {
                         </td>
                         <td className={styles.tabkeddd}>
                           <button>
-                            <img
-                              className={styles.tabkedddimgactive}
-                              onClick={() => ClickOpendelete(item?.id)}
-                              src="/images/Delete.png"
-                              alt="imgss"
+                            <Image
+                              onClick={() => ClickOpendelete(row?.id)}
+                              src={Delete}
+                              height={30}
+                              width={40}
                             />
                           </button>
-                          {/* <button>
-                            <img
-                              className={styles.tabkedddimgactive}
-                              onClick={() => ClickOpenupdate(item)}
-                              src="/images/Edit.png"
-                              alt="imgss"
-                            />
-                          </button> */}
                         </td>
                       </tr>
                     );

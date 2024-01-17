@@ -14,7 +14,9 @@ import Updategame from "@/Components/Admin/Game/Updategame";
 import { serverInstance } from "../../../API/ServerInstance";
 import { toast } from "react-toastify";
 import LoadingSpinner from "@/Components/loader/LoadingSpinner";
-
+import Edit from "../../../pages/images/Edit.png";
+import Delete from "../../../pages/images/Delete.png";
+import Image from "next/image";
 function AddGame() {
   // const dispatch = useDispatch();
 
@@ -195,19 +197,19 @@ function AddGame() {
 
                         <td className={styles.tabkeddd}>
                           <button>
-                            <img
-                              className={styles.tabkedddimgactive}
+                            <Image
                               onClick={() => ClickOpendelete(row?.id)}
-                              src="/images/Delete.png"
-                              alt="imgss"
+                              src={Delete}
+                              height={30}
+                              width={40}
                             />
                           </button>
                           <button>
-                            <img
-                              className={styles.tabkedddimgactive}
+                            <Image
                               onClick={() => ClickOpenupdate(row)}
-                              src="/images/Edit.png"
-                              alt="imgss"
+                              src={Edit}
+                              height={30}
+                              width={40}
                             />
                           </button>
                         </td>

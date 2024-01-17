@@ -24,8 +24,9 @@ export default function Home({ setLoadingshow, loadingshow }) {
         {loadingshow && (
           <>
             {/* <Banner/> */}
-            <Slider />
             <CasinoWin />
+            <Slider />
+          
             <GameList />
             {/* <WhyChoice /> */}
             <Footer />
